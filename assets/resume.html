@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eran Sery — Resume</title>
+  <style>
+    :root {
+      --text: #1a1a2e;
+      --muted: #4a4a5e;
+      --accent: #2563eb;
+      --border: #e2e8f0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      line-height: 1.5;
+      background: #f8fafc;
+      padding: 40px 20px;
+    }
+
+    .resume {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 48px 56px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      border-radius: 4px;
+    }
+
+    .header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .header .title {
+      font-size: 1rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin: 6px 0 10px;
+      line-height: 1.4;
+    }
+
+    .header .certs-line {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .header .contact {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .header .contact a { color: var(--accent); text-decoration: none; }
+
+    h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+      margin: 28px 0 14px;
+    }
+
+    .summary p {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .summary .badge-line {
+      font-size: 0.88rem;
+      color: var(--text);
+      font-weight: 600;
+      margin-top: 12px;
+    }
+
+    .job { margin-bottom: 20px; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .job h3 { font-size: 1rem; font-weight: 600; }
+    .job .company { color: var(--accent); font-weight: 500; font-size: 0.92rem; }
+    .job .date { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+    .job .location { font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
+
+    .job ul { padding-left: 18px; }
+    .job li { font-size: 0.88rem; color: var(--muted); margin-bottom: 4px; }
+
+    .skills-list { font-size: 0.88rem; color: var(--muted); }
+    .skills-list li { margin-bottom: 8px; }
+    .skills-list strong { color: var(--text); }
+
+    .education li { font-size: 0.88rem; color: var(--muted); margin-bottom: 6px; }
+
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .pdf-link {
+      position: fixed;
+      top: 20px;
+      right: 180px;
+      padding: 10px 20px;
+      background: #fff;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .resume { box-shadow: none; padding: 0; max-width: 100%; }
+      .print-btn, .pdf-link { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .resume { padding: 28px 24px; }
+      .pdf-link { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="pdf-link" href="Eran-Sery-CV-062026.pdf" download>Download PDF</a>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+
+  <div class="resume">
+    <header class="header">
+      <h1>Eran Sery</h1>
+      <p class="title">Principal Platform Engineer | Kubernetes | SRE | Cloud Infrastructure | DoD Secret Clearance</p>
+      <p class="certs-line">Certificates: CKA | AWS | GCP</p>
+      <p class="contact">
+        Atlanta (GA) | 404-663-7049 |
+        <a href="mailto:eran.sery@gmail.com">eran.sery@gmail.com</a> |
+        <a href="mailto:eransery@lnscloud.com">eransery@lnscloud.com</a><br>
+        Portfolios:
+        <a href="https://linkedin.com/in/eran-sery-devops-enabler">LinkedIn</a> |
+        <a href="https://github.com/ranser102">GitHub</a> |
+        <a href="https://eransery.medium.com">Medium</a> |
+        <a href="https://github.com/marketplace?query=ranser102">Marketplace</a>
+      </p>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>Principal Platform Engineer with 15+ years of engineering and operating Kubernetes platforms, cloud infrastructure, and reliability solutions across enterprise environments.</p>
+      <p>Deep expertise in Platform Engineering, SRE, GitOps, Infrastructure as Code, observability, and cloud-native operations on AWS, GCP, OpenShift, and Kubernetes.</p>
+      <p>Proven track record modernizing platforms, improving deployment reliability, automating infrastructure, and enabling development teams through scalable self-service capabilities.</p>
+      <p>Strong software engineering foundation with experience spanning platform automation, distributed systems, cloud migrations, and operational excellence.</p>
+      <p>Currently developing private AI infrastructure and LLMOps capabilities for secure enterprise AI deployments.</p>
+      <p class="badge-line">Active DoD Secret Clearance · CKA · AWS Certified · GCP Certified</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Platform Engineering Consultant</h3><span class="company">LNS IT LLC</span></div>
+          <span class="date">2016 – Present</span>
+        </div>
+        <p class="location">Atlanta, GA · Full-time since 05/2026</p>
+        <ul>
+          <li>Independent consultant specializing in Kubernetes, cloud infrastructure, platform engineering, and DevOps modernization.</li>
+          <li>Delivered AWS, GCP, CI/CD, and infrastructure automation solutions for startups and SMBs.</li>
+          <li>Built and supported AWS Marketplace, CRM, and cloud-native platform solutions.</li>
+          <li>Full-time since 05/2026, researching and developing sovereign AI platform capabilities for secure and private AI deployments.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Staff Site Reliability Engineer</h3><span class="company">Intuit Mailchimp</span></div>
+          <span class="date">10/2024 – 05/2026</span>
+        </div>
+        <p class="location">Atlanta, GA</p>
+        <ul>
+          <li>Built performance engineering capabilities using Playwright and Gatling, enabling repeatable validation of user workflows and system behavior under load.</li>
+          <li>Improved deployment reliability by implementing GitOps delivery pipelines with ArgoCD and Argo Rollouts, automated validation gates, and progressive canary releases.</li>
+          <li>Enhanced platform observability through telemetry, monitoring, and operational visibility improvements across distributed systems.</li>
+          <li>Supported enterprise cloud consolidation initiatives through lifecycle management and secure decommissioning of legacy GCP services during migration to AWS.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Lead Site Reliability Engineer</h3><span class="company">UKG</span></div>
+          <span class="date">05/2023 – 10/2024</span>
+        </div>
+        <p class="location">Atlanta, GA</p>
+        <ul>
+          <li>Managed GKE cluster lifecycles, Kubernetes resource provisioning, ArgoCD application delivery, and platform add-ons to improve reliability and operational efficiency.</li>
+          <li>Expanded observability capabilities through Datadog and OpenTelemetry onboarding across existing Kubernetes environments.</li>
+          <li>Implemented Infrastructure as Code solutions with Terraform to automate operational visibility and Service Level Objective (SLO) reporting.</li>
+          <li>Partnered with product and engineering teams to define reliability requirements and improve service resilience across distributed systems.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Principal DevSecOps Engineer</h3><span class="company">Raft – Department of Defense</span></div>
+          <span class="date">12/2022 – 05/2023</span>
+        </div>
+        <p class="location">Atlanta, GA</p>
+        <ul>
+          <li>Developed and maintained 10+ production-ready Terraform modules, standardizing infrastructure provisioning and accelerating platform delivery.</li>
+          <li>Implemented FluxCD GitOps workflows for EKS on AWS, enabling declarative infrastructure management and automated application delivery.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Senior DevOps Engineer</h3><span class="company">Delta Air Lines</span></div>
+          <span class="date">01/2018 – 12/2022</span>
+        </div>
+        <p class="location">Atlanta, GA</p>
+        <ul>
+          <li>Led migration of 10+ core services to Red Hat OpenShift on AWS, implementing GitOps delivery workflows with ArgoCD to support resilient cloud-native operations.</li>
+          <li>Built and automated 100+ CI/CD pipelines and deployment workflows, accelerating software delivery and improving operational consistency.</li>
+          <li>Drove DevOps adoption through engineering enablement, training, and collaboration with the Cloud Center of Excellence on cloud migration and platform modernization initiatives.</li>
+          <li>Administered enterprise-grade tools including GitLab, Jenkins, SonarQube, and Nexus to maintain high-integrity infrastructure and support secure software delivery at scale.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Automation Tech Lead</h3><span class="company">Amdocs – T-Mobile</span></div>
+          <span class="date">12/2011 – 01/2018</span>
+        </div>
+        <p class="location">Atlanta, GA</p>
+        <ul>
+          <li>Built and implemented automated deployment, configuration, and integration frameworks across thousands of Linux and Windows servers using Jenkins, Ansible, and Python.</li>
+          <li>Developed deployment automation and validation tooling for production and non-production environments, improving release reliability and operational efficiency.</li>
+          <li>Co-led a large-scale data center migration involving thousands of application instances and server environments across cross-functional engineering teams.</li>
+          <li>Led a 10+ member infrastructure engineering team supporting 100+ environments and 3,000+ virtual machines.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><h3>Professional Foundation</h3><span class="company">Amdocs</span></div>
+        </div>
+        <ul>
+          <li>Progressed from Software Engineer (R&amp;D) to Infrastructure &amp; Middleware SME. Built expertise in C/C++, Java, and enterprise-scale system integration for global telecommunications accounts.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Clearance &amp; Certifications:</strong> DoD Secret Clearance, CKA (Certified Kubernetes Administrator), AWS (Certified Solutions Architect Associate), GCP (Certified Cloud Engineer)</li>
+        <li><strong>Platform Engineering:</strong> Kubernetes (GKE, EKS), Docker, OpenShift, HashiCorp Nomad</li>
+        <li><strong>GitOps &amp; CI/CD:</strong> ArgoCD, Argo Rollouts, FluxCD, GitLab CI, GitHub Actions, Jenkins, AWS Code Pipeline</li>
+        <li><strong>Infrastructure-as-Code:</strong> Terraform, Ansible, CloudFormation</li>
+        <li><strong>Observability:</strong> OpenTelemetry, Datadog, Grafana</li>
+        <li><strong>AWS:</strong> EC2, EKS, ECS, Lambda, VPC, S3, RDS, IAM, Route 53, CloudWatch</li>
+        <li><strong>GCP:</strong> GKE, Compute Engine, App Engine, Cloud Run, Cloud Functions, Cloud Storage, VPC Networking, IAM</li>
+        <li><strong>Programming &amp; Automation:</strong> Python, Go, Java, OAuth2 Integrations, REST APIs, Cloud Infrastructure Design</li>
+        <li><strong>AI Infrastructure:</strong> Private AI, LLMOps, Ollama, vLLM, Vector Databases</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul class="education">
+        <li><strong>MBA, Finance and Capital Market</strong> (Ono Academic College)</li>
+        <li><strong>B.Sc., Information System Engineering</strong> (Ben-Gurion University)</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
