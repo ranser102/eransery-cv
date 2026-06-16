@@ -541,6 +541,39 @@ strong {
   border-bottom: none;
 }
 
+.about__focus {
+  margin-bottom: 48px;
+}
+
+.about__focus h3 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.about__focus li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.about__focus li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.about__focus li:last-child {
+  margin-bottom: 0;
+}
+
 /* Summary cards */
 .summary__grid {
   display: grid;
