@@ -9,9 +9,9 @@
   --bg-card-hover: #1c1c28;
   --border: rgba(255, 255, 255, 0.08);
   --border-accent: rgba(99, 179, 237, 0.25);
-  --text: #f5f6fc;
-  --text-muted: #c5c6d8;
-  --text-dim: #9ea0b8;
+  --text: #e8e8ed;
+  --text-muted: #8b8b9e;
+  --text-dim: #5c5c6e;
   --accent: #63b3ed;
   --accent-2: #7c6ff7;
   --accent-glow: rgba(99, 179, 237, 0.15);
@@ -41,7 +41,6 @@ body {
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
-  font-weight: 500;
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -67,8 +66,8 @@ ul {
 }
 
 strong {
-  color: #ffffff;
-  font-weight: 700;
+  color: var(--text);
+  font-weight: 600;
 }
 
 /* Background effects */
@@ -143,7 +142,6 @@ strong {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.2;
-  color: #ffffff;
 }
 
 /* Header / Nav */
@@ -334,10 +332,10 @@ strong {
 
 .hero__title {
   font-size: clamp(3rem, 7vw, 4.5rem);
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.05;
-  background: linear-gradient(135deg, #ffffff 45%, var(--accent) 100%);
+  background: linear-gradient(135deg, #fff 30%, var(--accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -347,14 +345,13 @@ strong {
 .hero__subtitle {
   font-size: clamp(1.25rem, 3vw, 1.75rem);
   color: var(--accent);
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .hero__tagline {
   font-size: 1.1rem;
   color: var(--text-muted);
-  font-weight: 500;
   max-width: 480px;
   margin-bottom: 28px;
   line-height: 1.7;
@@ -436,7 +433,6 @@ strong {
   padding: 24px;
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  font-weight: 500;
   line-height: 1.8;
   overflow-x: auto;
   color: var(--text-muted);
@@ -483,7 +479,6 @@ strong {
   color: var(--text-muted);
   margin-bottom: 16px;
   font-size: 1.05rem;
-  font-weight: 500;
 }
 
 .about__stats {
@@ -565,14 +560,11 @@ strong {
 .summary-card h3 {
   font-size: 1.05rem;
   margin-bottom: 10px;
-  font-weight: 700;
-  color: #ffffff;
 }
 
 .summary-card p {
   font-size: 0.9rem;
   color: var(--text-muted);
-  font-weight: 500;
   line-height: 1.65;
 }
 
@@ -635,8 +627,7 @@ strong {
 
 .exp-card__header h3 {
   font-size: 1.15rem;
-  font-weight: 700;
-  color: #ffffff;
+  font-weight: 600;
 }
 
 .exp-card__company {
@@ -671,7 +662,6 @@ strong {
   padding-left: 18px;
   color: var(--text-muted);
   font-size: 0.92rem;
-  font-weight: 500;
   margin-bottom: 8px;
   line-height: 1.6;
 }
@@ -742,8 +732,7 @@ strong {
 .skills-group h3 {
   font-size: 0.9rem;
   margin-bottom: 14px;
-  font-weight: 700;
-  color: #ffffff;
+  color: var(--text);
 }
 
 .skills-group__tags {
@@ -754,7 +743,6 @@ strong {
 
 .skills-group__tags span {
   font-size: 0.75rem;
-  font-weight: 500;
   padding: 4px 10px;
   background: rgba(255, 255, 255, 0.04);
   border-radius: 6px;
@@ -802,14 +790,11 @@ strong {
   font-size: 1rem;
   margin-bottom: 6px;
   line-height: 1.4;
-  font-weight: 700;
-  color: #ffffff;
 }
 
 .cert-card p {
   font-size: 0.85rem;
   color: var(--text-muted);
-  font-weight: 500;
   margin-bottom: 12px;
 }
 
@@ -829,7 +814,7 @@ strong {
 /* Projects */
 .projects__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -873,7 +858,6 @@ strong {
 .project-card p {
   font-size: 0.9rem;
   color: var(--text-muted);
-  font-weight: 500;
   flex: 1;
   margin-bottom: 16px;
   line-height: 1.6;
@@ -943,7 +927,6 @@ strong {
 .contact__text p {
   color: var(--text-muted);
   font-size: 1.05rem;
-  font-weight: 500;
   margin-bottom: 32px;
   line-height: 1.7;
 }

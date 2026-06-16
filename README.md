@@ -17,7 +17,7 @@ The site does not read the PDF at runtime. Resume content is copied into:
 | `assets/resume.html` | Browser/print version |
 | `assets/Eran-Sery-CV.pdf` | Direct PDF download |
 
-The **Projects** section is supplementary (GitHub repos and LNS IT work) and is not in the PDF.
+The **Projects** section is supplementary (curated GitHub repos) and is not in the PDF.
 
 When you update your resume:
 

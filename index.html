@@ -12,7 +12,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -88,9 +88,9 @@
             </div>
             <pre class="terminal__body"><code><span class="t-prompt">$</span> kubectl get nodes
 <span class="t-ok">NAME</span>          <span class="t-ok">STATUS</span>   <span class="t-ok">ROLES</span>    <span class="t-ok">VERSION</span>
-platform-01   Ready    control-plane   v1.36
-platform-02   Ready    worker          v1.36
-platform-03   Ready    worker          v1.36
+platform-01   Ready    control-plane   v1.29.2
+platform-02   Ready    worker          v1.29.2
+platform-03   Ready    worker          v1.29.2
 
 <span class="t-prompt">$</span> argocd app sync production --prune
 <span class="t-info">Syncing application...</span>
@@ -119,10 +119,9 @@ platform-03   Ready    worker          v1.36
         <div class="about__grid">
           <div class="about__text">
             <p>
-              Principal Platform Engineer with <strong>15+ years</strong> in engineering and technology,
-              working with cloud platforms such as <strong>AWS since 2016</strong>, building and operating
-              <strong>Kubernetes since 2018</strong>, and delivering cloud infrastructure and reliability
-              solutions across enterprise environments. Based in <strong>Atlanta, GA</strong>.
+              Principal Platform Engineer with <strong>15+ years</strong> engineering and operating
+              Kubernetes platforms, cloud infrastructure, and reliability solutions across enterprise
+              environments. Based in <strong>Atlanta, GA</strong>.
             </p>
             <p>
               Deep expertise in Platform Engineering, SRE, GitOps, Infrastructure as Code, observability,
@@ -143,7 +142,7 @@ platform-03   Ready    worker          v1.36
           <div class="about__stats">
             <div class="stat-card">
               <span class="stat-card__value">15+</span>
-              <span class="stat-card__label">Years in Tech</span>
+              <span class="stat-card__label">Years K8s Platforms</span>
             </div>
             <div class="stat-card">
               <span class="stat-card__value">100+</span>
@@ -503,14 +502,27 @@ platform-03   Ready    worker          v1.36
         <div class="projects__grid">
           <article class="project-card">
             <div class="project-card__header">
-              <h3>LNS IT · AWS Marketplace</h3>
-              <a href="https://lnscloud.com/" target="_blank" rel="noopener" aria-label="View LNS IT">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              <h3>ratelimiter-fixed-window-counter</h3>
+              <a href="https://github.com/ranser102/ratelimiter-fixed-window-counter" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
               </a>
             </div>
-            <p>Cloud-native BSS products, CRM, and AWS Marketplace solutions for startups and SMBs.</p>
+            <p>API rate limiter using the Fixed Window Counter algorithm with Memcached, Docker Compose, K8s manifests, load tests, and Codespaces tooling.</p>
             <div class="project-card__tags">
-              <span>AWS</span><span>CRM</span><span>Marketplace</span>
+              <span>Python</span><span>Memcached</span><span>Kubernetes</span><span>API</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3>openvpn-aws</h3>
+              <a href="https://github.com/ranser102/openvpn-aws" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p>OpenVPN server provisioning on AWS with CloudFormation and EC2 user-data automation for secure VPC access.</p>
+            <div class="project-card__tags">
+              <span>AWS</span><span>OpenVPN</span><span>CloudFormation</span><span>VPC</span>
             </div>
           </article>
 
@@ -521,7 +533,7 @@ platform-03   Ready    worker          v1.36
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
               </a>
             </div>
-            <p>GitHub Action for uploading files and directories to S3-compatible buckets - used in CI/CD pipelines.</p>
+            <p>GitHub Action for uploading files and directories to S3-compatible buckets - published on GitHub Marketplace.</p>
             <div class="project-card__tags">
               <span>GitHub Actions</span><span>AWS S3</span><span>JavaScript</span>
             </div>
@@ -529,53 +541,27 @@ platform-03   Ready    worker          v1.36
 
           <article class="project-card">
             <div class="project-card__header">
-              <h3>argocd-keycloak-kind-local</h3>
-              <a href="https://github.com/ranser102/argocd-keycloak-kind-local" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <h3>Datadog</h3>
+              <a href="https://github.com/ranser102/Datadog" target="_blank" rel="noopener" aria-label="View on GitHub">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
               </a>
             </div>
-            <p>ArgoCD and Keycloak integration on a local kind cluster - GitOps auth patterns for platform engineering labs.</p>
+            <p>Terraform modules and examples for Datadog synthetics tests, monitors, alert notifications, and SLOs.</p>
             <div class="project-card__tags">
-              <span>ArgoCD</span><span>Keycloak</span><span>kind</span><span>GitOps</span>
+              <span>Terraform</span><span>Datadog</span><span>Synthetics</span><span>SLO</span>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-card__header">
-              <h3>codespace-kind-template</h3>
-              <a href="https://github.com/ranser102/codespace-kind-template" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <h3>data_api</h3>
+              <a href="https://github.com/ranser102/data_api" target="_blank" rel="noopener" aria-label="View on GitHub">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
               </a>
             </div>
-            <p>GitHub Codespaces template with a pre-configured kind Kubernetes cluster for instant local development environments.</p>
+            <p>Containerized ML prediction API with Docker packaging and Terraform-based AWS deployment patterns.</p>
             <div class="project-card__tags">
-              <span>kind</span><span>Codespaces</span><span>Kubernetes</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card__header">
-              <h3>kubernetes-the-hard-way</h3>
-              <a href="https://github.com/ranser102/kubernetes-the-hard-way" target="_blank" rel="noopener" aria-label="View on GitHub">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-              </a>
-            </div>
-            <p>Hands-on Kubernetes cluster bootstrap from scratch - etcd, control plane, workers, networking, and smoke tests.</p>
-            <div class="project-card__tags">
-              <span>Kubernetes</span><span>etcd</span><span>TLS</span><span>CKA</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card__header">
-              <h3>Hashicorp-Nomad</h3>
-              <a href="https://github.com/ranser102/Hashicorp-Nomad" target="_blank" rel="noopener" aria-label="View on GitHub">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-              </a>
-            </div>
-            <p>HashiCorp Nomad cluster with Consul service mesh - workload orchestration beyond Kubernetes.</p>
-            <div class="project-card__tags">
-              <span>Nomad</span><span>Consul</span><span>HCL</span>
+              <span>Python</span><span>Docker</span><span>Terraform</span><span>AWS</span>
             </div>
           </article>
 
@@ -586,9 +572,61 @@ platform-03   Ready    worker          v1.36
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
               </a>
             </div>
-            <p>AWS CodePipeline fundamentals - build, test, and deploy automation patterns on AWS.</p>
+            <p>End-to-end AWS CodePipeline setup to build and deploy a SAM Java application with CloudFormation and CodeBuild.</p>
             <div class="project-card__tags">
-              <span>AWS</span><span>CodePipeline</span><span>CI/CD</span>
+              <span>AWS</span><span>CodePipeline</span><span>SAM</span><span>CloudFormation</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3>Hashicorp-Nomad</h3>
+              <a href="https://github.com/ranser102/Hashicorp-Nomad" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p>HashiCorp Nomad and Consul lab with Traefik load balancing and Jenkins workloads on a single-node cluster.</p>
+            <div class="project-card__tags">
+              <span>Nomad</span><span>Consul</span><span>Traefik</span><span>HCL</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3>lb_nginx</h3>
+              <a href="https://github.com/ranser102/lb_nginx" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p>Nginx load balancer setup with a Go-based health-check service and deployment automation scripts.</p>
+            <div class="project-card__tags">
+              <span>Nginx</span><span>Go</span><span>Load Balancer</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3>nist-data-mirror</h3>
+              <a href="https://github.com/ranser102/nist-data-mirror" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p>Java utility to mirror NIST NVD CVE data inside the firewall for OWASP Dependency-Check, with OpenShift deployment.</p>
+            <div class="project-card__tags">
+              <span>Java</span><span>OpenShift</span><span>Security</span><span>NVD</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3>oauth2_client</h3>
+              <a href="https://github.com/ranser102/oauth2_client" target="_blank" rel="noopener" aria-label="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p>GitLab extended API framework with OAuth2 web-flow auth for self-service project APIs, deployable via Docker and Helm.</p>
+            <div class="project-card__tags">
+              <span>Python</span><span>OAuth2</span><span>GitLab</span><span>OpenShift</span>
             </div>
           </article>
         </div>
@@ -607,7 +645,7 @@ platform-03   Ready    worker          v1.36
             <h3>Eran Sery - Principal Platform Engineer</h3>
             <p>Full career history, certifications, and technical skills in a print-ready format.</p>
             <ul class="resume__meta">
-              <li>15+ years in tech · AWS/cloud since 2016 · Kubernetes since 2018</li>
+              <li>15+ years Kubernetes platform engineering</li>
               <li>DoD Secret Clearance · CKA · AWS · GCP</li>
               <li>Updated June 2026</li>
             </ul>

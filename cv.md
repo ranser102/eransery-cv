@@ -15,7 +15,7 @@ Atlanta, GA · 404-663-7049 · eran.sery@gmail.com · eransery@lnscloud.com
 
 ## Professional Summary
 
-Principal Platform Engineer with 15+ years in engineering and technology, working with cloud platforms such as AWS since 2016, building and operating Kubernetes since 2018, and delivering cloud infrastructure and reliability solutions across enterprise environments.
+Principal Platform Engineer with 15+ years of engineering and operating Kubernetes platforms, cloud infrastructure, and reliability solutions across enterprise environments.
 
 Deep expertise in Platform Engineering, SRE, GitOps, Infrastructure as Code, observability, and cloud-native operations on AWS, GCP, OpenShift, and Kubernetes.
 
@@ -37,7 +37,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Independent consultant specializing in Kubernetes, cloud infrastructure, platform engineering, and DevOps modernization.
 - Delivered AWS, GCP, CI/CD, and infrastructure automation solutions for startups and SMBs.
 - Built and supported AWS Marketplace, CRM, and cloud-native platform solutions.
-- Full-time since 05/2026, researching and developing sovereign AI platform capabilities for secure and private AI deployments.
+- Researching and developing sovereign AI platform capabilities for secure and private AI deployments.
 
 ### Staff Site Reliability Engineer - Intuit Mailchimp
 *10/2024 – 05/2026 | Atlanta, GA*
@@ -64,10 +64,10 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 ### Senior DevOps Engineer - Delta Air Lines
 *01/2018 – 12/2022 | Atlanta, GA*
 
-- Led migration of 10+ core services to Red Hat OpenShift on AWS, implementing GitOps delivery workflows with ArgoCD to support resilient cloud-native operations.
-- Built and automated 100+ CI/CD pipelines and deployment workflows, accelerating software delivery and improving operational consistency.
-- Drove DevOps adoption through engineering enablement, training, and collaboration with the Cloud Center of Excellence on cloud migration and platform modernization initiatives.
-- Administered enterprise-grade tools including GitLab, Jenkins, SonarQube, and Nexus to maintain high-integrity infrastructure and support secure software delivery at scale.
+- Led migration of 10+ core services to Red Hat OpenShift on AWS with ArgoCD GitOps delivery workflows.
+- Built and automated 100+ CI/CD pipelines and deployment workflows.
+- Drove DevOps adoption through engineering enablement, training, and Cloud Center of Excellence collaboration.
+- Administered GitLab, Jenkins, SonarQube, and Nexus for secure software delivery at scale.
 
 ### Automation Tech Lead - Amdocs (T-Mobile)
 *12/2011 – 01/2018 | Atlanta, GA*
