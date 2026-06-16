@@ -37,7 +37,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Independent consultant specializing in Kubernetes, cloud infrastructure, platform engineering, and DevOps modernization.
 - Delivered AWS, GCP, CI/CD, and infrastructure automation solutions for startups and SMBs.
 - Built and supported AWS Marketplace, CRM, and cloud-native platform solutions.
-- Researching and developing sovereign AI platform capabilities for secure and private AI deployments.
+- Full-time since 05/2026, researching and developing sovereign AI platform capabilities for secure and private AI deployments.
 
 ### Staff Site Reliability Engineer - Intuit Mailchimp
 *10/2024 – 05/2026 | Atlanta, GA*
@@ -64,23 +64,22 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 ### Senior DevOps Engineer - Delta Air Lines
 *01/2018 – 12/2022 | Atlanta, GA*
 
-- Led migration of 10+ core services to Red Hat OpenShift on AWS with ArgoCD GitOps delivery workflows.
-- Built and automated 100+ CI/CD pipelines and deployment workflows.
-- Drove DevOps adoption through engineering enablement, training, and Cloud Center of Excellence collaboration.
-- Administered GitLab, Jenkins, SonarQube, and Nexus for secure software delivery at scale.
+- Led migration of 10+ core services to Red Hat OpenShift on AWS, implementing GitOps delivery workflows with ArgoCD to support resilient cloud-native operations.
+- Built and automated 100+ CI/CD pipelines and deployment workflows, accelerating software delivery and improving operational consistency.
+- Drove DevOps adoption through engineering enablement, training, and collaboration with the Cloud Center of Excellence on cloud migration and platform modernization initiatives.
+- Administered enterprise-grade tools including GitLab, Jenkins, SonarQube, and Nexus to maintain high-integrity infrastructure and support secure software delivery at scale.
 
 ### Automation Tech Lead - Amdocs (T-Mobile)
 *12/2011 – 01/2018 | Atlanta, GA*
 
-- Built automated deployment, configuration, and integration frameworks across thousands of Linux and Windows servers using Jenkins, Ansible, and Python.
-- Developed deployment automation and validation tooling for production and non-production environments.
-- Co-led a large-scale data center migration involving thousands of application instances.
+- Built and implemented automated deployment, configuration, and integration frameworks across thousands of Linux and Windows servers using Jenkins, Ansible, and Python.
+- Developed deployment automation and validation tooling for production and non-production environments, improving release reliability and operational efficiency.
+- Co-led a large-scale data center migration involving thousands of application instances and server environments across cross-functional engineering teams.
 - Led a 10+ member infrastructure engineering team supporting 100+ environments and 3,000+ virtual machines.
 
 ### Professional Foundation - Amdocs
 
-- Progressed from Software Engineer (R&D) to Infrastructure & Middleware SME.
-- Built expertise in C/C++, Java, and enterprise-scale system integration for global telecommunications accounts.
+- Progressed from Software Engineer (R&D) to Infrastructure & Middleware SME. Built expertise in C/C++, Java, and enterprise-scale system integration for global telecommunications accounts.
 
 ---
 
@@ -92,8 +91,8 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - **Infrastructure as Code:** Terraform, Ansible, CloudFormation
 - **Observability:** OpenTelemetry, Datadog, Grafana
 - **AWS:** EC2, EKS, ECS, Lambda, VPC, S3, RDS, IAM, Route 53, CloudWatch
-- **GCP:** GKE, Compute Engine, App Engine, Cloud Run, Cloud Functions, Cloud Storage, VPC, IAM
-- **Programming:** Python, Go, Java, OAuth2, REST APIs
+- **GCP:** GKE, Compute Engine, App Engine, Cloud Run, Cloud Functions, Cloud Storage, VPC Networking, IAM
+- **Programming & Automation:** Python, Go, Java, OAuth2 Integrations, REST APIs, Cloud Infrastructure Design
 - **AI Infrastructure:** Private AI, LLMOps, Ollama, vLLM, Vector Databases
 
 ---

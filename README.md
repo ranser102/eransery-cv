@@ -4,6 +4,27 @@ Personal portfolio website for **Eran Sery**, Principal Platform Engineer. Built
 
 **Live site:** `https://ranser102.github.io/eransery-cv/` (after deployment)
 
+## Content source
+
+**`assets/Eran-Sery-CV.pdf` is the source of truth** for resume content (experience, skills, education, certifications).
+
+The site does not read the PDF at runtime. Resume content is copied into:
+
+| File | What it powers |
+|------|----------------|
+| `index.html` | Portfolio sections (About, Experience, Skills, etc.) |
+| `cv.md` | Markdown copy of the resume |
+| `assets/resume.html` | Browser/print version |
+| `assets/Eran-Sery-CV.pdf` | Direct PDF download |
+
+The **Projects** section is supplementary (GitHub repos and LNS IT work) and is not in the PDF.
+
+When you update your resume:
+
+1. Replace `assets/Eran-Sery-CV.pdf`
+2. Sync `index.html`, `cv.md`, and `assets/resume.html` to match
+3. Commit and push
+
 ## Project Structure
 
 ```
@@ -11,10 +32,11 @@ eransery-cv/
 ├── index.html          # Main portfolio page
 ├── styles.css          # Dark theme, responsive styles
 ├── script.js           # Navigation, scroll effects, form handling
-├── cv.md               # Resume source (Markdown)
+├── cv.md               # Resume copy (sync with PDF)
 ├── assets/
+│   ├── Eran-Sery-CV.pdf  # Source of truth (resume PDF)
 │   ├── favicon.svg     # Site favicon
-│   └── resume.html     # Print-ready resume (save as PDF)
+│   └── resume.html     # Print-ready HTML resume
 └── README.md
 ```
 
@@ -100,15 +122,15 @@ git push
 | Certifications | `index.html` → `#certifications` section **and** `cv.md` |
 | Projects | `index.html` → `#projects` section **and** `cv.md` |
 | Social links (LinkedIn, GitHub, Medium) | `index.html` → hero, contact sections |
-| Print-ready resume | `assets/resume.html` **and** `cv.md` |
+| Print-ready resume | `assets/resume.html` **and** `assets/Eran-Sery-CV.pdf` |
 | Colors, fonts, layout | `styles.css` |
 | Animations, nav behavior | `script.js` |
 
-**Tip:** Keep `cv.md`, `assets/resume.html`, and `index.html` in sync when updating experience or skills.
+**Tip:** Keep `assets/Eran-Sery-CV.pdf`, `index.html`, `cv.md`, and `assets/resume.html` in sync when updating experience or skills.
 
 ### Export resume as PDF
 
-1. Open `assets/resume.html` in a browser.
+1. Open `assets/resume.html` in a browser, or download `assets/Eran-Sery-CV.pdf` directly.
 2. Click **Print / Save as PDF** (or use Cmd+P / Ctrl+P).
 3. Choose **Save as PDF**.
 
