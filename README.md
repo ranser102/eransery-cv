@@ -1,6 +1,6 @@
-# Eran Sery — Portfolio
+# Eran Sery - Portfolio
 
-Personal portfolio website for **Eran Sery**, Principal Platform Engineer. Built with static HTML, CSS, and JavaScript — deployed on GitHub Pages.
+Personal portfolio website for **Eran Sery**, Principal Platform Engineer. Built with static HTML, CSS, and JavaScript - deployed on GitHub Pages.
 
 **Live site:** `https://ranser102.github.io/eransery-cv/` (after deployment)
 
@@ -121,4 +121,4 @@ git push
 
 ## Author
 
-**Eran Sery** — [LinkedIn](https://linkedin.com/in/eran-sery-devops-enabler) · [GitHub](https://github.com/ranser102) · [Medium](https://medium.com/@ranser102)
+**Eran Sery** - [LinkedIn](https://linkedin.com/in/eran-sery-devops-enabler) · [GitHub](https://github.com/ranser102) · [Medium](https://medium.com/@ranser102)

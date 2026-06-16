@@ -31,7 +31,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 
 ## Experience
 
-### Platform Engineering Consultant — LNS IT LLC
+### Platform Engineering Consultant - LNS IT LLC
 *2016 – Present (Full-time since 05/2026) | Atlanta, GA*
 
 - Independent consultant specializing in Kubernetes, cloud infrastructure, platform engineering, and DevOps modernization.
@@ -39,7 +39,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Built and supported AWS Marketplace, CRM, and cloud-native platform solutions.
 - Researching and developing sovereign AI platform capabilities for secure and private AI deployments.
 
-### Staff Site Reliability Engineer — Intuit Mailchimp
+### Staff Site Reliability Engineer - Intuit Mailchimp
 *10/2024 – 05/2026 | Atlanta, GA*
 
 - Built performance engineering capabilities using Playwright and Gatling, enabling repeatable validation of user workflows and system behavior under load.
@@ -47,7 +47,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Enhanced platform observability through telemetry, monitoring, and operational visibility improvements across distributed systems.
 - Supported enterprise cloud consolidation initiatives through lifecycle management and secure decommissioning of legacy GCP services during migration to AWS.
 
-### Lead Site Reliability Engineer — UKG
+### Lead Site Reliability Engineer - UKG
 *05/2023 – 10/2024 | Atlanta, GA*
 
 - Managed GKE cluster lifecycles, Kubernetes resource provisioning, ArgoCD application delivery, and platform add-ons.
@@ -55,13 +55,13 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Implemented Infrastructure as Code solutions with Terraform to automate operational visibility and SLO reporting.
 - Partnered with product and engineering teams to define reliability requirements and improve service resilience.
 
-### Principal DevSecOps Engineer — Raft (Department of Defense)
+### Principal DevSecOps Engineer - Raft (Department of Defense)
 *12/2022 – 05/2023 | Atlanta, GA*
 
 - Developed and maintained 10+ production-ready Terraform modules, standardizing infrastructure provisioning.
 - Implemented FluxCD GitOps workflows for EKS on AWS, enabling declarative infrastructure management and automated application delivery.
 
-### Senior DevOps Engineer — Delta Air Lines
+### Senior DevOps Engineer - Delta Air Lines
 *01/2018 – 12/2022 | Atlanta, GA*
 
 - Led migration of 10+ core services to Red Hat OpenShift on AWS with ArgoCD GitOps delivery workflows.
@@ -69,7 +69,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Drove DevOps adoption through engineering enablement, training, and Cloud Center of Excellence collaboration.
 - Administered GitLab, Jenkins, SonarQube, and Nexus for secure software delivery at scale.
 
-### Automation Tech Lead — Amdocs (T-Mobile)
+### Automation Tech Lead - Amdocs (T-Mobile)
 *12/2011 – 01/2018 | Atlanta, GA*
 
 - Built automated deployment, configuration, and integration frameworks across thousands of Linux and Windows servers using Jenkins, Ansible, and Python.
@@ -77,7 +77,7 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 - Co-led a large-scale data center migration involving thousands of application instances.
 - Led a 10+ member infrastructure engineering team supporting 100+ environments and 3,000+ virtual machines.
 
-### Professional Foundation — Amdocs
+### Professional Foundation - Amdocs
 
 - Progressed from Software Engineer (R&D) to Infrastructure & Middleware SME.
 - Built expertise in C/C++, Java, and enterprise-scale system integration for global telecommunications accounts.
@@ -100,13 +100,13 @@ Currently developing private AI infrastructure and LLMOps capabilities for secur
 
 ## Education
 
-- **MBA, Finance and Capital Market** — Ono Academic College
-- **B.Sc., Information System Engineering** — Ben-Gurion University
+- **MBA, Finance and Capital Market** - Ono Academic College
+- **B.Sc., Information System Engineering** - Ben-Gurion University
 
 ---
 
 ## Certifications
 
-- **CKA — Certified Kubernetes Administrator** — [Verify](https://www.credly.com/badges/291c8fe2-0341-489e-a29c-e6bf28a44edb/public_url)
-- **Associate Cloud Engineer** — Google Cloud
-- **AWS Certified Solutions Architect – Associate** — [Verify](https://cp.certmetrics.com/amazon/en/public/verify/credential/XQWXBBH111EQQYWH)
+- **CKA - Certified Kubernetes Administrator** - [Verify](https://www.credly.com/badges/291c8fe2-0341-489e-a29c-e6bf28a44edb/public_url)
+- **Associate Cloud Engineer** - Google Cloud
+- **AWS Certified Solutions Architect – Associate** - [Verify](https://cp.certmetrics.com/amazon/en/public/verify/credential/XQWXBBH111EQQYWH)

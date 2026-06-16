@@ -100,7 +100,7 @@
     });
   }
 
-  // Contact form — no backend; opens mailto
+  // Contact form - no backend; opens mailto
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
