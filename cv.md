@@ -15,7 +15,7 @@ Atlanta, GA · 404-663-7049 · eran.sery@gmail.com · eransery@lnscloud.com
 
 ## Professional Summary
 
-Principal Platform Engineer with 15+ years of engineering and operating Kubernetes platforms, cloud infrastructure, and reliability solutions across enterprise environments.
+Principal Platform Engineer with 15+ years in engineering and technology, working with cloud platforms such as AWS since 2016, building and operating Kubernetes since 2018, and delivering cloud infrastructure and reliability solutions across enterprise environments.
 
 Deep expertise in Platform Engineering, SRE, GitOps, Infrastructure as Code, observability, and cloud-native operations on AWS, GCP, OpenShift, and Kubernetes.
 
